@@ -1,0 +1,42 @@
+* {
+    font-family: Garamond, "Brush Script MT", sans-serif;
+    background-color: rgb(250, 245, 240);
+}
+
+h1 {
+    background-color: antiquewhite;
+    text-align: center;
+    font-size: 48px;
+}
+
+h2 {
+    background-color: rgb(240, 235, 230);
+    font-size: 24px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    max-width: 50%;
+    height: auto;
+}
+
+p,
+a,
+li {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.intro {
+    margin-top: 100px;
+    text-align: center;
+    
+}
+
+li.link {
+    text-align: center;
+    list-style-type: none;
+}

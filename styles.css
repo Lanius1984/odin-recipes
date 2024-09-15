@@ -1,24 +1,38 @@
 * {
     font-family: Garamond, "Brush Script MT", sans-serif;
     background-color: rgb(250, 245, 240);
+    margin: 0;
 }
 
 h1 {
     background-color: rgb(245, 235, 225);
     text-align: center;
     font-size: 48px;
+    display: inline-block;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 50px;
+    padding: 10px 8%;
+    border: 10px double rgb(120, 110, 100);
 }
 
 h2 {
     background-color: rgb(245, 235, 225);
     font-size: 24px;
+    display: inline-block;
+    margin-left: 20%;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    width: 400px;
+    padding: 5px 20px;
+    border-bottom: 2px solid rgb(120, 110, 100);
 }
 
 img {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 10px;
+    margin-inline: auto;
+    margin-top: 50px;
+    border-radius: 20px;
     max-width: 50%;
     height: auto;
 }
@@ -28,26 +42,33 @@ a,
 div {
     font-size: 20px;
     font-weight: 500;
+    margin-left: 20%;
+    margin-bottom: 10px;
 }
 
 .intro {
-    margin-top: 100px;
+    font-size: 26px;
+    margin-top: 70px;
     margin-bottom: 0;
+    margin-left: 0;
     text-align: center;
-    
 }
 
 .options-box {
     padding: 20px;
-    width: 500px;
+    width: 400px;
     margin: 0 auto;
-
 }
 
 .link {
     background-color: rgb(245, 235, 225);
     display: block;
-    margin: 20px 150px;
+    margin: 20px 100px;
     text-align: center;
     padding: 15px;
+    border: 2px solid rgb(120, 110, 100);
+}
+
+li {
+    padding-bottom: 5px;
 }
